@@ -22,7 +22,16 @@ How It Works
 
 The API accepts these borrower fields:
 
-FieldDescriptionAgeBorrower's ageIncomeAnnual incomeLoanAmountRequested loan amountCreditScoreCredit scoreMonthsEmployedEmployment duration (months)NumCreditLinesNumber of open credit linesInterestRateLoan interest rate (%)LoanTermLoan term (months)DTIRatioDebt-to-income ratio
+FieldDescription
+Age Borrower's age
+Income  Annual income
+LoanAmount  Requested loan amount
+CreditScore Credit score
+MonthsEmployed  Employment duration (months)
+NumCreditLinesNumber of open credit lines
+InterestRate Loan interest rate (%)
+LoanTerm Loan term (months)
+DTIRatio Debt-to-income ratio
 
 2. Feature Engineering
 
