@@ -43,20 +43,6 @@ This mirrors the exact feature set the model was trained on.
 The scaled feature vector is passed to the trained XGBoost model, which returns a risk probability. This is converted into a risk category (e.g. Low / Medium / High) and a lending recommendation.
 
 API Endpoints
-
-MethodEndpointDescriptionGET/API infoGET/healthHealth check — confirms model is loadedPOST/predictPredict risk for a single borrowerPOST/predict/batchPredict risk for multiple borrowers at onceGET/model/performanceModel metrics and feature importanceGET/docsInteractive Swagger UI (auto-generated)
-
-Setup & Run
-
-bash# 1. Install dependencies
-pip install -r requirements.txt
-
-# 2. Run the API
-uvicorn app.main:app --reload
-
-# 3. Open the interactive docs
-http://localhost:8000/docs
-
 Example Request
 
 jsonPOST /predict
